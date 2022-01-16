@@ -16,8 +16,8 @@ public class MyLinkListTest {
             myLinkList.add(myThirdNode);
             myLinkList.printMyNodes();
             boolean result = myLinkList.head.equals(myThirdNode) &&
-                             myLinkList.head.getNext().equals(mySecondNode);
-                             myLinkList.tail.equals(mySecondNode);
+                             myLinkList.head.getNext().equals(mySecondNode)&&
+                             myLinkList.tail.equals(myFirstNode);
             Assert.assertTrue(result);
         }
     }
