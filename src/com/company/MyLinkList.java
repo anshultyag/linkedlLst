@@ -24,7 +24,7 @@ public class MyLinkList {
         }
     }
             public void insert(INode myNode,INode newNode){
-                 INode tempNode = head;
+                INode tempNode = myNode.getNext();
                 myNode.setNext(newNode);
                 newNode.setNext(tempNode);
     }

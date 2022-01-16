@@ -13,8 +13,8 @@ public class MyLinkListTest {
         MyNode<Integer> myThirdNode = new MyNode<>(70);
         MyLinkList myLinkList = new MyLinkList();
         myLinkList.add(myFirstNode);
-        myLinkList.append(myThirdNode);
-        myLinkList.append(myThirdNode);
+        myLinkList.append(myThirdNodemy);
+        myLinkList.insert(myFirstNode,mySecondNode);
         boolean result = myLinkList.head.equals(myFirstNode) &&
                 myLinkList.head.getNext().equals(mySecondNode)&&
                 myLinkList.tail.equals(myThirdNode);
