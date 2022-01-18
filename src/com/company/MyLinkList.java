@@ -28,11 +28,7 @@ public class MyLinkList {
         myNode.setNext(newNode);
         newNode.setNext(tempNode);
     }
-    public INode pop(){
-        INode tempNode = this.head;
-        this.head = head.getNext();
-        return tempNode;
-    }
+    
     public INode popLast(){
         INode tempNode = head;
         while (!tempNode.getNext().equals(tail)){
